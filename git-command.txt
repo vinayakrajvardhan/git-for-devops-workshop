@@ -1,0 +1,37 @@
+
+Id CommandLine
+  -- -----------
+   1 ls
+   2 ls -l
+   3 clear
+   4 git init
+   5 dir -a
+   6 clear
+   7 ls
+   8 git status
+   9 dir
+  10 clear
+  11 git status
+  12 git add testing.py
+  13 git status
+  14 git rm --cached testing.py
+  15 git status
+  16 git add .
+  17 git status
+  18 git commit -m "added testing.py file"
+  19 git status
+  20 rm testing.py
+  21 git status
+  22 git restore testing.py
+  23 git status
+  24 git history
+  25 history
+  26 git remote add origin https://github.com/vinayakrajvardhan/git-for-devops-workshop.git
+  27 git remote -v
+  28 git status
+  29 git remote -v
+  30 git remote set-url  https://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@github.com/vinayakrajvardhan/git-for-dev...
+  31 git remote -v
+  32 git remote set-url origin  https://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@github.com/vinayakrajvardhan/git-...
+  33 git remote -v
+  34 git push origin master
