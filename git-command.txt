@@ -1,37 +1,55 @@
 
 Id CommandLine for git noted
   -- -----------
-   1 ls
-   2 ls -l
-   3 clear
-   4 git init
-   5 dir -a
-   6 clear
-   7 ls
+     1 git push origin master
+   2 git push
+   3 git push --set-upstream origin master
+   4 clear
+   5 git push
+   6  git push --set-upstream origin master
+   7  git push --set-upstream origin master
    8 git status
-   9 dir
-  10 clear
+   9 clear
+  10 git pull origin master
   11 git status
-  12 git add testing.py
-  13 git status
-  14 git rm --cached testing.py
+  12 git pull origin master
+  13 git stash
+  14 git pull origin master
   15 git status
-  16 git add .
-  17 git status
-  18 git commit -m "added testing.py file"
-  19 git status
-  20 rm testing.py
+  16 git pull origin master
+  17 git branch
+  18 git branch dev
+  19 git branch
+  20 git switch dev
   21 git status
-  22 git restore testing.py
-  23 git status
-  24 git history
-  25 history
-  26 git remote add origin https://github.com/vinayakrajvardhan/git-for-devops-workshop.git
-  27 git remote -v
+  22 git add dev_branch.py
+  23 git commit -m "dev_branch.py file"
+  24 git status
+  25 git switch master
+  26 git branch
+  27 git switch dev
   28 git status
-  29 git remote -v
-  30 git remote set-url  https://personal-token@github.com/vinayakrajvardhan/git-for-dev...
-  31 git remote -v
-  32 git remote set-url origin  https://personal-token@github.com/vinayakrajvardhan/git-...
-  33 git remote -v
-  34 git push origin master
+  29 git log
+  30 git log --oneline
+  31 git checkout master
+  32 git status
+  33 git checkout dev
+  34 git status
+  35 git log --oneline
+  36 git status
+  37 git push origin dev
+  38 git push origin dev
+  39 git branch test
+  40 git status
+  41 git branch
+  42 git checkout test
+  43 git status
+  44 git status
+  45 git add test-brachh.py
+  46 git commit -m "test-brachh.py added "
+  47 git push origin test
+  48 git status
+  49 git switch master
+  50 git status
+  51 clear
+  52 git pull origin master
